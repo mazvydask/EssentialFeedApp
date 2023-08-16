@@ -15,6 +15,7 @@
 		FF6D07012A84302300E349AF /* EssentialFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = FF6D06F32A84302300E349AF /* EssentialFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF6D070B2A84306700E349AF /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6D070A2A84306700E349AF /* FeedItem.swift */; };
 		FF6D070D2A84323D00E349AF /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6D070C2A84323D00E349AF /* FeedLoader.swift */; };
+		FFF30DF42A8D671200C45646 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF30DF32A8D671200C45646 /* HTTPClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		FF6D06FF2A84302300E349AF /* EssentialFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedTests.swift; sourceTree = "<group>"; };
 		FF6D070A2A84306700E349AF /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 		FF6D070C2A84323D00E349AF /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
+		FFF30DF32A8D671200C45646 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				FF1DE9AA2A8784C500501DD0 /* RemoteFeedLoader.swift */,
+				FFF30DF32A8D671200C45646 /* HTTPClient.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF1DE9AB2A8784C500501DD0 /* RemoteFeedLoader.swift in Sources */,
+				FFF30DF42A8D671200C45646 /* HTTPClient.swift in Sources */,
 				FF6D070D2A84323D00E349AF /* FeedLoader.swift in Sources */,
 				FF6D070B2A84306700E349AF /* FeedItem.swift in Sources */,
 				FF6D06F52A84302300E349AF /* EssentialFeed.docc in Sources */,
