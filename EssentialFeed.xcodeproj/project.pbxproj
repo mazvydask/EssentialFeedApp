@@ -34,6 +34,7 @@
 /* Begin PBXFileReference section */
 		FF1DE9AA2A8784C500501DD0 /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
 		FF1E75982A857B7800014F5A /* RemoteFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTests.swift; sourceTree = "<group>"; };
+		FF33C9702A97844B0008A042 /* EssentialFeed.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = EssentialFeed.xctestplan; sourceTree = "<group>"; };
 		FF6D06F02A84302300E349AF /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF6D06F32A84302300E349AF /* EssentialFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialFeed.h; sourceTree = "<group>"; };
 		FF6D06F42A84302300E349AF /* EssentialFeed.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EssentialFeed.docc; sourceTree = "<group>"; };
@@ -80,6 +81,7 @@
 		FF6D06E62A84302300E349AF = {
 			isa = PBXGroup;
 			children = (
+				FF33C9702A97844B0008A042 /* EssentialFeed.xctestplan */,
 				FF6D06F22A84302300E349AF /* EssentialFeed */,
 				FF6D06FE2A84302300E349AF /* EssentialFeedTests */,
 				FF6D06F12A84302300E349AF /* Products */,
