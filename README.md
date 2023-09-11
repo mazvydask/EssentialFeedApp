@@ -1,5 +1,8 @@
 # Essential Feed App – Image Feed Feature
 
+![Build Status](https://github.com/mazvydask/EssentialFeed/actions/workflows/CI.yml/badge.svg)
+
+
  ## BDD Specs
 
  ### Story: Customer requests to see their image feed
