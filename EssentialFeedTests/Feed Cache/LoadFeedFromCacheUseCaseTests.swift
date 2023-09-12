@@ -43,9 +43,9 @@ import EssentialFeed
      
      func test_load_deliversCachedImagesOnLessThanSevenDaysOldCache() {
          let feed = uniqueImageFeed()
-         let fixedCurrentdate = Date()
-         let lessThanSevenDayOldTimestamp = fixedCurrentdate.adding(days: -7).adding(seconds: 1)
-         let (sut, store) = makeSUT()
+         let fixedCurrentDate = Date()
+         let lessThanSevenDayOldTimestamp = fixedCurrentDate.adding(days: -7).adding(seconds: 1)
+         let (sut, store) = makeSUT(currentDate: { fixedCurrentDate })
          
          expect(sut, toCompleteWith: .success(feed.models)) {
              store.completeRetrieval(with: feed.local, timestamp: lessThanSevenDayOldTimestamp)
