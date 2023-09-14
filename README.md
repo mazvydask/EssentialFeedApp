@@ -76,13 +76,14 @@
 
  #### Primary course:
  1. Execute the "Load Feed Items" command with the above data.
- 2. System fetches feed data from the cache.
+ 2. System retrieves feed data from the cache.
  3. System validates cache is less than seven days old.
  4. System creates feed items from cached data.
  5. System delivers feed items.
 
-#### Error course (sad path):
- 1. System delivers error.
+#### Retrieval error course (sad path):
+ 1. System deletes cache.
+ 2. System delivers error.
 
  #### Expired cache course (sad path): 
  1. System deletes cache.
