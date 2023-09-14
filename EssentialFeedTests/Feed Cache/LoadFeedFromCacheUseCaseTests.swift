@@ -62,6 +62,16 @@ import EssentialFeed
              store.completeRetrieval(with: feed.local, timestamp: moreThanSevenDayOldTimestamp)
          }
      }
+     
+     func test_load_deletesCacheOnRetrievalError() {
+         let (sut, store) = makeSUT()
+         
+         sut.load { _ in }
+         store.completeRetrieval(with: anyNSError())
+         
+         XCTAssertEqual(store.receivedMessages, [.retrieve, .deleteCachedFeed])
+     }
+     
 
      // MARK: - Helpers
      
