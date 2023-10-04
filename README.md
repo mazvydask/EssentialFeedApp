@@ -1,13 +1,16 @@
 # Essential Feed App (cuurently in progress)
 A demo project.
 
-🟢 - Networking Module
-🟡 - Persistence Module (in progress)
-🔴 - UI + Presentation Module
-🔴 - Main Module
-
 ![Build Status](https://github.com/mazvydask/EssentialFeed/actions/workflows/CI.yml/badge.svg)
 
+
+🟢 - Networking Module
+
+🟡 - Persistence Module (in progress)
+
+🔴 - UI + Presentation Module
+
+🔴 - Main Module
 
  ## BDD Specs
 
