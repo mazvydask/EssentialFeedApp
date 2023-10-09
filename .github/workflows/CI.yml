@@ -15,4 +15,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Build and test
-        run: xcodebuild clean test -project EssentialFeed.xcodeproj -scheme CI
+        run: xcodebuild clean test -project EssentialFeed/EssentialFeed.xcodeproj -scheme CI
